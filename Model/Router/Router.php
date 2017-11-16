@@ -23,12 +23,15 @@ class Router
      * @throws Exception
      */
     private function loadController($action){
-        if (file_exists('Controller/'.ucfirst($action).'Controller.php')){
-            $controllerName = ucfirst($action).'Controller';
+        if(array_key_exists($action,ROUTES)) {
+            $controllerName = ROUTES[$action]['Controller'];
+            $controllerAction = ROUTES[$action]['Action'];
+
             $controller = new $controllerName();
             /*Run controller*/
-            $controller->run();
-        } else {
+            $controller->$controllerAction();
+
+        }else{
             throw new Exception('L\'action '.$action.' est introuvable');
         }
 

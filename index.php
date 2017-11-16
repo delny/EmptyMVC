@@ -11,6 +11,7 @@ session_start();
 
 /*load Configuration*/
 require ('Config/parameters.php');
+require ('Config/routing.php');
 
 /*load autoloader*/
 require ('Model/Autoloader.php');
