@@ -17,5 +17,6 @@ define('ROUTES', [
      * '{Name on the action}' => ['Controller' => '{controller name}','Action' => ' method of controller to call'],
      */
     'Home' => ['Controller' => 'HomeController','Action' => 'run'],
-    'list' => ['Controller' => 'ListController','Action' => 'run'],
+    'list' => ['Controller' => 'ListController','Action' => 'getList'],
+    'addlist' => ['Controller' => 'ListController','Action' => 'addList'],
 ]);
