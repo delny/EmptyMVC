@@ -12,11 +12,11 @@ $titre = WEBSITE_TITLE.' -- Accueil';
 
     <div class="jumbotron">
         <h1 class="display-3">Hello, world!</h1>
-        <p class="lead">This is an example of homepage using Bootstrap</p>
+        <p class="lead">This is an example of project coded in php on the standard mvc using Bootstrap 4.0</p>
         <hr class="my-4">
-        <p>to change this view completely, you can change between ob_start() and ob_get_clean() </p>
+        <p>You can access to the code on my Github account : </p>
         <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Just a button</a>
+            <a class="btn btn-primary btn-lg" href="https://github.com/delny/EmptyMVC" role="button">Just here</a>
         </p>
     </div>
 
