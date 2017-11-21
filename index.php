@@ -14,7 +14,7 @@ require ('Config/parameters.php');
 require ('Config/routing.php');
 
 /*load autoloader*/
-require ('Model/Autoloader.php');
+require('App/Autoloader.php');
 Autoloader::register();
 
 /*routeRequest*/
