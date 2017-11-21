@@ -6,6 +6,10 @@
  * Time: 09:57
  */
 
+namespace Application\Controller;
+
+use Application\App\Controller;
+
 class ErrorController extends Controller
 {
     /**

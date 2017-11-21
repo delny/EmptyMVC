@@ -6,6 +6,8 @@
  * Time: 09:12
  */
 
+namespace Application\App;
+
 class Autoloader
 {
     /**

@@ -6,6 +6,8 @@
  * Time: 10:02
  */
 
+namespace Application\View;
+
 class View
 {
     /**

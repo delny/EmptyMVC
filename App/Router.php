@@ -6,6 +6,8 @@
  * Time: 09:24
  */
 
+namespace Application\App;
+
 class Router
 {
     public function routeRequest(){

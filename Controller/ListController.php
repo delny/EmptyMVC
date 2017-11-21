@@ -6,6 +6,10 @@
  * Time: 10:45
  */
 
+namespace Application\Controller;
+
+use Application\App\Controller;
+
 class ListController extends Controller
 {
     /**

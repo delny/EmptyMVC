@@ -6,6 +6,10 @@
  * Time: 10:23
  */
 
+namespace Application\Controller;
+
+use Application\App\Controller;
+
 class HomeController extends Controller
 {
     public function run(){

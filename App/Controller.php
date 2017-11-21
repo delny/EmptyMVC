@@ -6,6 +6,10 @@
  * Time: 09:59
  */
 
+namespace Application\App;
+
+use Application\View\View;
+
 class Controller
 {
     /**
