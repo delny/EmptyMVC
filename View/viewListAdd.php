@@ -16,7 +16,7 @@ $titre = WEBSITE_TITLE.' -- Ajouter Liste';
     <form method="post">
         <div class="form-group">
             <label for="name">Nom du fruit/l&eacute;gume</label>
-            <input type="email" class="form-control" id="name"placeholder="Nom">
+            <input type="text" class="form-control" id="name"placeholder="Nom">
         </div>
         <div class="form-group">
             <label for="type">Fruit ou l&eacute;gume ?</label>
