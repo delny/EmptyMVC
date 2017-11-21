@@ -11,6 +11,10 @@ namespace EmptyMVC\App;
 class Application
 {
     public function run (){
+        /*load autoloader*/
+        require('App/Autoloader.php');
+        \EmptyMVC\App\Autoloader::register();
+
         /*load Configuration*/
         require ('Config/parameters.php');
         require ('Config/routing.php');

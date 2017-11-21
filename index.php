@@ -9,10 +9,6 @@
 /*Start session*/
 session_start();
 
-/*load autoloader*/
-require('App/Autoloader.php');
-\EmptyMVC\App\Autoloader::register();
-
 /*Run Application*/
 require('App/Application.php');
 $myApp = new \EmptyMVC\App\Application();
