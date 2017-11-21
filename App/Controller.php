@@ -6,9 +6,9 @@
  * Time: 09:59
  */
 
-namespace Application\App;
+namespace EmptyMVC\App;
 
-use Application\View\View;
+use EmptyMVC\View\View;
 
 class Controller
 {

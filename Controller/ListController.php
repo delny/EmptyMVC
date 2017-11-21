@@ -6,9 +6,9 @@
  * Time: 10:45
  */
 
-namespace Application\Controller;
+namespace EmptyMVC\Controller;
 
-use Application\App\Controller;
+use EmptyMVC\App\Controller;
 
 class ListController extends Controller
 {

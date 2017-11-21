@@ -9,14 +9,11 @@
 /*Start session*/
 session_start();
 
-/*load Configuration*/
-require ('Config/parameters.php');
-require ('Config/routing.php');
-
 /*load autoloader*/
 require('App/Autoloader.php');
-Autoloader::register();
+\EmptyMVC\App\Autoloader::register();
 
-/*routeRequest*/
-$router = new Router();
-$router->routeRequest();
+/*Run Application*/
+require('App/Application.php');
+$myApp = new \EmptyMVC\App\Application();
+$myApp->run();

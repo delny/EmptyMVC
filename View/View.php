@@ -6,7 +6,7 @@
  * Time: 10:02
  */
 
-namespace Application\View;
+namespace EmptyMVC\View;
 
 class View
 {
