@@ -34,8 +34,8 @@ class Autoloader
             require ('Model/Manager/'.$class.'.php');
         } elseif (file_exists('View/'.$class.'.php')){
             require('View/'.$class.'.php');
-        } elseif (file_exists('Model/Entity'.$class.'.php')){
-            require ('Model/Entity'.$class.'.php');
+        } elseif (file_exists('Model/Entity/'.$class.'.php')){
+            require ('Model/Entity/'.$class.'.php');
         }
     }
 }
